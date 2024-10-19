@@ -60,6 +60,6 @@ search.addEventListener('click', () => {
         })
         .catch(error => {
             console.error('Error fetching weather data:', error);
-            // Handle error, e.g., display a message to the user
+            
         });
 });
